@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/TeaParty"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/TeaParty" />
+    <item
+        android:id="@+id/Favorite"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/beloved"/>
+    <item
+        android:id="@+id/Add_Tea"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/AddTea" />
+    <item
+        android:id="@+id/Profile"
+        android:icon="@drawable/common_google_signin_btn_text_disabled"
+        android:title="@string/title_profile" />
+
+
+</menu>

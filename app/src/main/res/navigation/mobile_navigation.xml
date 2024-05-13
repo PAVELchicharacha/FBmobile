@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/TeaParty">
+
+    <fragment
+        android:id="@+id/Favorite"
+        android:name="com.example.kursproject.ui.teaparty.TeaPartyFragment"
+        android:label="@string/beloved"
+        tools:layout="@layout/fragment_teaparty" />
+    <fragment
+        android:id="@+id/TeaParty"
+        android:name="com.example.kursproject.ui.teaparty.TeaPartyFragment"
+        android:label="@string/TeaParty"
+        tools:layout="@layout/fragment_teaparty" />
+
+    <fragment
+        android:id="@+id/Add_Tea"
+        android:name="com.example.kursproject.ui.notifications.NotificationsFragment"
+        android:label="@string/AddTea"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/Profile"
+        android:name="com.example.kursproject.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
