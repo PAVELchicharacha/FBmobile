@@ -18,9 +18,9 @@
 
     <fragment
         android:id="@+id/Add_Tea"
-        android:name="com.example.kursproject.ui.notifications.NotificationsFragment"
+        android:name="com.example.kursproject.ui.AddTea.AddTeaFragment"
         android:label="@string/AddTea"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_addtea" />
     <fragment
         android:id="@+id/Profile"
         android:name="com.example.kursproject.ui.profile.ProfileFragment"
