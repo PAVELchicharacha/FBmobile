@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun getUserData(){
         for (i in imageId.indices){
-            var tea =AddTeaData(imageId[i],heading[i])
+            val tea =AddTeaData(imageId[i],heading[i])
             newArrayList.add(tea)
         }
         newRecylerview.adapter=AddteaAdpter(newArrayList)
