@@ -36,8 +36,11 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
                     Toast.makeText(requireContext(), "User$user",Toast.LENGTH_LONG).show()
                     val intent=Intent(requireActivity(),MainActivity::class.java)
                     startActivity(intent)
-                } else {
-
+                }else{
+                    val user = auth.currentUser
+                    Toast.makeText(requireContext(), "User$user",Toast.LENGTH_LONG).show()
+                    val intent=Intent(requireActivity(),MainActivity::class.java)
+                    startActivity(intent)
                 }
             }
         }

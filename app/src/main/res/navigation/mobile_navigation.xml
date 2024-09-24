@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/Favorite"
-        android:name="com.example.kursproject.ui.teaparty.TeaPartyFragment"
+        android:name="com.example.kursproject.ui.FavoriteFragment"
         android:label="@string/beloved"
-        tools:layout="@layout/fragment_teaparty" />
+        tools:layout="@layout/fragment_favorite" />
     <fragment
         android:id="@+id/TeaParty"
         android:name="com.example.kursproject.ui.teaparty.TeaPartyFragment"

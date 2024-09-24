@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.TeaParty, R.id.Favorite,R.id.Add_Tea,R.id.Profile
             )
         )
+
         navView.setupWithNavController(navController)
         imageId = arrayOf(
             R.drawable.tea1,
@@ -45,12 +46,13 @@ class MainActivity : AppCompatActivity() {
             "чай какой то",
             "чай липтон"
         )
-        newRecylerview=findViewById(R.id.recyclerview)
-        newRecylerview.layoutManager=LinearLayoutManager(this)
-        newRecylerview.setHasFixedSize(true)
+        //я хуй знает,на что,но на что то он тут блять жалуется,этот ебаный партизан вообще ничего не говорит
+//        newRecylerview =findViewById(R.id.recyclerview)
+//        newRecylerview.layoutManager=LinearLayoutManager(this)
+//        newRecylerview.setHasFixedSize(true)
 
-        newArrayList= arrayListOf<AddTeaData>()
-        getUserData()
+//        newArrayList= arrayListOf<AddTeaData>()
+//        getUserData()
 
 
 
